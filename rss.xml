@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+	<rss version="2.0">
+		<channel>
+			<item>
+				<title>Naslovna</title>
+				<decription>Dobrodosli u nas zooloski vrt.</decription>
+				<link>#</link>
+			</item>
+			<item>
+				<title>Galerija</title>
+				<description>Pogledajte slike nasih ljubimaca.</description>
+				<link>#</link>
+			</item>
+			<item>
+				<title>Kontakt</title>
+				<description>Kontaktirajte nas i ocenite nas rad.</description>
+				<link>#</link>
+			</item>
+			<item>
+				<title>O autoru</title>
+				<description>Nesto o meni.</description>
+				<link>#</link>
+			</item>
+		</channel>
+	</rss>

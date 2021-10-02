@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoo vrt Zivotinjsko carstvo</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+	<meta name="keywords" content="zivotinje,zabava,priroda,"/>
+	<meta name="description" content="Najbolji nacin da u prirodi sa porodicom provedete slobodno vreme"/>
+	<meta name="robots" content="index,follow" href="robots.txt"/>
+</head>
+
+<body>
+	<div id="omot">
+		<header id="zaglavlje">
+				<div id="sredina">
+			<a href="index.html" id="logo"><img src="images/logo.png" title="logo" alt="logo"/></a>
+		</div>
+			<div id="levo">
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Naslovna</a>
+						</li>
+						<li>
+							<a href="galerija.html">Galerija</a>
+						</li>
+						<li>
+							<a href="kontakt.html">Kontakt</a>
+						</li>
+						<li>
+							<a href="autor.html">O autoru</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="desno">		
+				<input type="search" id="search" name="search" placeholder="search"/>
+			</div>
+		</header>
+		
+		<section id="kontakt">
+			<form method="POST" action="#">
+				<table cellpadding="10" cellspacing="5px">
+					<tr>
+						<td>Ime:</td>
+						<td>Prezime:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="tbName" id="Name"/>
+						</td>
+						<td>
+							<input type="text" name="tbPrezime" id="Prezime"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td>Država:</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="tbEmail" id="email"/>
+						</td>
+						<td>
+							<input type="text" name="tbDrzava" id="Drzava"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Da li nas sajt sadrzi sve </br> potrebne informacije?
+						</td>
+						<td>
+							<div id="dailine">
+								<input type="radio" name="grupa" id="prviradio" value="da"/>&nbsp; Da
+								</br>
+								<input type="radio" name="grupa" id="drugiradio" value="ne"/>&nbsp; Ne
+								</br>
+							</div>
+						</td>
+					</tr>
+					
+					
+					<tr>
+						<td>Poruka</td>
+						<td>
+							<textarea cols="15" rows="5"></textarea>
+						</td>
+					
+					</tr>
+					<tr>
+						<td>Ocenite zooloski vrt:</td>
+						<td>
+							<select name="ddlOcena">
+								<option value="ocena" selected="1">Ne zadovoljava kriterijume</option>
+								<option value="ocena" selected="2">Srednji</option>
+								<option value="ocena" selected="3">Dobar</option>
+								<option value="ocena" selected="4">Vrlo dobar</option>
+								<option value="ocena" selected="5">Odlican</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="Unesi" class="dugme" id="unos" name="btnUnos"/>
+						</td>
+						<td>
+							<input type="reset" value="Ponisti" class="dugme" id="ponisti" name="btnPonisti"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</section>
+		
+		<div class="cleaner"></div>
+		<footer>
+			<article class="futer">
+				<h3>
+					<b>Zooloski vrt "Zivotinjsko carstvo"</b>
+				</h3>
+				<p>011/144-255</p>
+				<p>Mali Kalemegdan 8</p>
+				<p>Srbija-Beograd</p>
+				<p>zivotinjskocarstvo@gmail.com</p>
+			</article>
+			<div id="svi">
+				<div class="social-network">
+					<a href="https://www.facebook.com/" target="_blank">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</div>
+				<div class="social-network">
+					<a href="https://www.instagram.com/" target="_blank">
+						<i class="fa fa-instagram"></i>
+					</a>
+				</div>
+				<div class="social-network">
+					<a href="https://www.twiter.com/" target="_blank">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</div>
+				<div class="cleaner"></div>
+			</div>
+			<div id="forma">
+				<form method="GET" action="#">
+					</br>
+					</br>
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<p>Log in</p>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="text" id="email" name="email" size="30" placeholder="e-mail"/>
+									</br>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="password" id="password" name="password" size="30" placeholder="password"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="submit" id="submit" name="submit" value="Unesi"/>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+			<div class="cleaner"></div>
+		</footer>
+		<div id="drugifuter">
+			<div class="jedan"><a target="_blank" href="rss.xml"><i class="fa fa-rss"></i></a></div>
+			
+			
+			<div id="copyright">
+				Copy Right &copy <a href="autor.html">Bogdanovic Isidora</a> | <a href="sitemap.xml" target="_blank">Sitemap</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
